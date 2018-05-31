@@ -152,3 +152,7 @@ footer {
     text-align: center;
     height: 80px;
 }
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
