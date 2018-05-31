@@ -132,7 +132,6 @@
 ---------Contact-------
 ======================*/
 #contact {
-    height: 600px;
     background: white;
 }
 #contact h1 {
@@ -145,4 +144,13 @@
 }
 #contact p {
     text-align: center;
+}
+/*========================
+----------FOOTER---------
+=======================*/
+footer {
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    height: 80px;
 }
