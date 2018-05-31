@@ -52,25 +52,20 @@
 		font-size: 3em;
 	}
 }
-
+.wrap {
+    background: linear-gradient(0, red, white, black);
+}
 /*======================
 -------Navbar----------
 ======================*/
 .navbar {
     overflow: hidden;
     background: linear-gradient(132deg, black, white, red);
-    animation: LinearGradient 30s ease infinite;
     position: fixed; 
     top: 0;
     width: 100%;
     z-index: 3;
     
-}
-@keyframes LinearGradient {
-    0% { background-position: 0% 30%;}
-    30% { background-position: 30% 60%}
-    60% { background-position: 60% 90%}
-    100% {background-position: 90% 0%}
 }
 .navbar a {
     float: left;
@@ -100,7 +95,6 @@
 ====================*/
 #about{
     height: 600px;
-    background: red;
 }
 #about h1 {
     text-align: center;
@@ -111,7 +105,7 @@
 ====================*/
 #schedule {
     height: 600px;
-    background: black;
+
 }
 #schedule h1 {
     text-align: center;
@@ -122,17 +116,16 @@
 =====================*/
 #players {
     height: 600px;
-    background: red;
 }
 #players h1 {
     text-align: center;
-    color: white;
+    color: black;
 }
 /*======================
 ---------Contact-------
 ======================*/
 #contact {
-    background: white;
+    
 }
 #contact h1 {
     text-align: center;
@@ -145,6 +138,7 @@
 }
 #contact p {
     text-align: center;
+    color: black;
 }
 form {
     margin-top: 80px;
