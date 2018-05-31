@@ -100,7 +100,7 @@
 ====================*/
 #about{
     height: 600px;
-    background: black;
+    background: red;
 }
 #about h1 {
     text-align: center;
@@ -111,9 +111,38 @@
 ====================*/
 #schedule {
     height: 600px;
-    background: red;
+    background: black;
 }
 #schedule h1 {
     text-align: center;
     color: white;
+}
+/*=====================
+--------Players-------
+=====================*/
+#players {
+    height: 600px;
+    background: red;
+}
+#players h1 {
+    text-align: center;
+    color: white;
+}
+/*======================
+---------Contact-------
+======================*/
+#contact {
+    height: 600px;
+    background: white;
+}
+#contact h1 {
+    text-align: center;
+    color: black;
+}
+#contact img {
+    border: 1px solid black;
+    border-radius: 40px;
+}
+#contact p {
+    text-align: center;
 }

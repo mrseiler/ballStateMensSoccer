@@ -220,17 +220,11 @@ function initBalls() {
 balls = [];
 
 var blue = '#3A5BCD';
-var img = new Image();
-var div = document.getElementById('demo-canvas');
-
-img.onload = function() {
-  div.appendChild(img);
-};
-
+var img = document.createElement("img");
 img.src = "./assets/soccerBall.png";
 
 
-balls.push(new Ball(630, 340, 0, 0, img));
+balls.push(new Ball(630, 340, 0, 0, blue));
 
 
 
@@ -352,12 +346,12 @@ for(var n = 0; n < balls.length; n++) {
   }
 }
 }
-function Ball(x, y, vx, vy, img) {
+function Ball(x, y, vx, vy, color) {
 this.x = x;
 this.y = y;
 this.vx = vx;
 this.vy = vy;
-this.img = img;
+this.color = color;
 this.origX = x;
 this.origY = y;
 this.radius = 20;
