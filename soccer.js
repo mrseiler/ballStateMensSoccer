@@ -76,7 +76,7 @@
         window.addEventListener('scroll', scrollCheck);
         window.addEventListener('resize', resize);
     }
-
+/*
     function mouseMove(e) {
         var posx = posy = 0;
         if (e.pageX || e.pageY) {
