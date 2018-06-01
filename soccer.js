@@ -158,7 +158,7 @@
         }
     }
 
-    function Circle(pos,rad,color) {
+    /*function Circle(pos,rad,color) {
         var _this = this;
 
         // constructor
@@ -175,7 +175,7 @@
             ctx.fillStyle = 'rgba(156,217,249,'+ _this.active+')';
             ctx.fill();
         };
-    }
+    }*/
 
     // Util
     function getDistance(p1, p2) {
