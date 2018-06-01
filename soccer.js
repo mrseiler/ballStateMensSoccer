@@ -215,7 +215,7 @@ window.requestAnimFrame = (function(callback) {
     window.setTimeout(callback, 1000 / 60);
 };
 })();
-/*
+
 function initBalls() {
 balls = [];
 
@@ -391,7 +391,7 @@ var time = date.getTime();
 * set mouse position really far away
 * so the mouse forces are nearly obsolete
 */
-/*
+
 var mousePos = {
 x: 9999,
 y: 9999
@@ -409,4 +409,3 @@ mousePos.y = 9999;
 });
 animate(canvas, balls, time, mousePos);
 
-*/
