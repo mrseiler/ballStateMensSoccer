@@ -19,7 +19,7 @@
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
-
+        
         // create points
         points = [];
         for(var x = 0; x < width; x = x + width/20) {
@@ -66,6 +66,7 @@
             var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
             points[i].circle = c;
         }
+        
     }
 
     // Event handling
@@ -76,7 +77,7 @@
         window.addEventListener('scroll', scrollCheck);
         window.addEventListener('resize', resize);
     }
-/*
+
     function mouseMove(e) {
         var posx = posy = 0;
         if (e.pageX || e.pageY) {
@@ -158,7 +159,7 @@
         }
     }
 
-    /*function Circle(pos,rad,color) {
+    function Circle(pos,rad,color) {
         var _this = this;
 
         // constructor
@@ -175,7 +176,7 @@
             ctx.fillStyle = 'rgba(156,217,249,'+ _this.active+')';
             ctx.fill();
         };
-    }*/
+    }
 
     // Util
     function getDistance(p1, p2) {
@@ -224,7 +225,7 @@ var img = document.createElement("img");
 img.src = "./assets/soccerBall.png";
 
 
-balls.push(new Ball(630, 340, 0, 0, blue));
+balls.push(new Ball(620, 340, 0, 0, blue));
 
 
 
