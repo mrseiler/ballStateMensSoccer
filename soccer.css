@@ -95,6 +95,7 @@
 ====================*/
 #about{
     margin-bottom: 20px;
+    padding-top: 40px;
 }
 #about h1 {
     text-align: center;
@@ -109,15 +110,77 @@
 ====================*/
 #schedule {
     height: 600px;
-
+    padding-top: 40px;
 }
 #schedule h1 {
     text-align: center;
     color: white;
 }
 #schedule h3 {
-    color: rgb(196, 39, 39);
+    color: white;
     text-align: center;
+}
+#spring2017 {
+    display: block;
+    text-decoration: none;
+    background: url(./assets/BallStateTeamPicture.png);
+    background-size: cover;
+    opacity: .4;
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#spring2017:hover {
+    background: red;
+    color: black;
+    opacity: 1;
+}
+#fall2017 {
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-size: 24px;
+    
+}
+#fall2017:hover {
+    background-color: red;
+    color: black;
+}
+#spring2018 {
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#spring2018:hover {
+    background-color: red;
+    color: black;
+}
+#fall2018 {
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-size: 24px;
+}
+#fall2018:hover {
+    background-color: red;
+    color: black;
 }
 table, th, td {
     border: 1px solid black;
@@ -138,15 +201,32 @@ table, th, td {
 --------Players-------
 =====================*/
 #players {
-    height: 600px;
+    padding-top: 40px;
 }
 #players h1 {
     text-align: center;
     color: black;
 }
+#players h3 {
+    text-align: center;
+    color: black;
+}
+#pictures {
+    text-align: left;
+    display: block;
+    margin-top: 20px;
+}
+#players img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
 /*======================
 ---------Contact-------
 ======================*/
+#contact {
+    padding-top: 40px;
+}
 #contact h1 {
     text-align: center;
     color: black;
